@@ -1,6 +1,6 @@
 // Simple Theme Colors
 export const COLORS = {
-  primary: '#D4AF37',      // Gold
+  primary: '#FF8C00',      // Orange
   background: '#0A0A0A',   // Black
   surface: '#1A1A1A',      // Card Background
   text: '#FFFFFF',         
