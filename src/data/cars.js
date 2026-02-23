@@ -1,5 +1,4 @@
 // Car Shop Inventory - Pakistan Market Real Cars
-// Images from free sources that look realistic
 
 export const CARS = [
   // Toyota Cars
@@ -15,7 +14,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1798cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2020_Toyota_Corolla_SE_in_Celestite_Grey%2C_front_12.14.19.jpg/1280px-2020_Toyota_Corolla_SE_in_Celestite_Grey%2C_front_12.14.19.jpg',
+    image: 'https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=600&q=80',
   },
   {
     id: '2',
@@ -29,7 +28,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1598cc',
     location: 'Islamabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2020_Toyota_Corolla_XLE_in_Blueprint%2C_front_10.25.20.jpg/1280px-2020_Toyota_Corolla_XLE_in_Blueprint%2C_front_10.25.20.jpg',
+    image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&q=80',
   },
   {
     id: '3',
@@ -43,7 +42,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1496cc',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2020_Toyota_Yaris_XLE_%28facelift%29%2C_front_10.18.20.jpg/1280px-2020_Toyota_Yaris_XLE_%28facelift%29%2C_front_10.18.20.jpg',
+    image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=600&q=80',
   },
   {
     id: '4',
@@ -57,7 +56,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '2755cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2021_Toyota_Fortuner_2.8_VRZ_GR_Sport_%28Indonesia%29_front_view.jpg/1280px-2021_Toyota_Fortuner_2.8_VRZ_GR_Sport_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&q=80',
   },
   {
     id: '5',
@@ -71,7 +70,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '2755cc',
     location: 'Rawalpindi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2020_Toyota_Hilux_Revo_2.4_G_Prerunner_%28Thailand%29_front_view.jpg/1280px-2020_Toyota_Hilux_Revo_2.4_G_Prerunner_%28Thailand%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1559416523-140ddc3d238c?w=600&q=80',
   },
   {
     id: '6',
@@ -85,7 +84,7 @@ export const CARS = [
     transmission: '10-Speed Automatic',
     engine: '3444cc Twin Turbo',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2022_Toyota_Land_Cruiser_%28J300%29_ZX_%28Indonesia%29_front_view.jpg/1280px-2022_Toyota_Land_Cruiser_%28J300%29_ZX_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=600&q=80',
   },
   {
     id: '7',
@@ -99,7 +98,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '2755cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Toyota_Land_Cruiser_Prado_%28J150%29_facelift_front.jpg/1280px-Toyota_Land_Cruiser_Prado_%28J150%29_facelift_front.jpg',
+    image: 'https://images.unsplash.com/photo-1625231334168-24f10d89a978?w=600&q=80',
   },
 
   // Honda Cars
@@ -115,7 +114,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Honda_Civic_%28FE%29_RS_front%2C_Kudus.jpg/1280px-Honda_Civic_%28FE%29_RS_front%2C_Kudus.jpg',
+    image: 'https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=600&q=80',
   },
   {
     id: '9',
@@ -129,7 +128,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
     location: 'Islamabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/2022_Honda_Civic_Touring_in_Rallye_Red%2C_Front_Left%2C_10-16-2021.jpg/1280px-2022_Honda_Civic_Touring_in_Rallye_Red%2C_Front_Left%2C_10-16-2021.jpg',
+    image: 'https://images.unsplash.com/photo-1619682817481-e994891cd1f5?w=600&q=80',
   },
   {
     id: '10',
@@ -143,7 +142,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/2020_Honda_City_1.5_V_GN2_%28Indonesia%29_front_view.jpg/1280px-2020_Honda_City_1.5_V_GN2_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&q=80',
   },
   {
     id: '11',
@@ -157,7 +156,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc',
     location: 'Faisalabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2022_Honda_BR-V_1.5_E_N7X_%28Indonesia%29_front_view.jpg/1280px-2022_Honda_BR-V_1.5_E_N7X_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1568844293986-8c8a5a8afe0d?w=600&q=80',
   },
   {
     id: '12',
@@ -171,7 +170,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/2022_Honda_HR-V_1.5_Turbo_RS_%28Indonesia%29_front_view.jpg/1280px-2022_Honda_HR-V_1.5_Turbo_RS_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80',
   },
 
   // Suzuki Cars
@@ -187,7 +186,7 @@ export const CARS = [
     transmission: 'AGS Automatic',
     engine: '660cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2019_Suzuki_Alto_%28HA36%29_front%2C_Denpasar.jpg/1280px-2019_Suzuki_Alto_%28HA36%29_front%2C_Denpasar.jpg',
+    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80',
   },
   {
     id: '14',
@@ -201,7 +200,7 @@ export const CARS = [
     transmission: 'AGS Automatic',
     engine: '998cc',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2018_Suzuki_Celerio_%28LF%29_%28facelift%29_front%2C_West_Surabaya.jpg/1280px-2018_Suzuki_Celerio_%28LF%29_%28facelift%29_front%2C_West_Surabaya.jpg',
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80',
   },
   {
     id: '15',
@@ -215,7 +214,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1197cc',
     location: 'Islamabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/2021_Suzuki_Swift_GL_%28facelift%29%2C_South_Tangerang.jpg/1280px-2021_Suzuki_Swift_GL_%28facelift%29%2C_South_Tangerang.jpg',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80',
   },
   {
     id: '16',
@@ -229,7 +228,7 @@ export const CARS = [
     transmission: 'AGS Automatic',
     engine: '998cc',
     location: 'Multan',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2019_Suzuki_Karimun_Wagon_R_GL_%28GS%29_front%2C_West_Surabaya.jpg/1280px-2019_Suzuki_Karimun_Wagon_R_GL_%28GS%29_front%2C_West_Surabaya.jpg',
+    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&q=80',
   },
 
   // KIA Cars
@@ -245,7 +244,7 @@ export const CARS = [
     transmission: '8-Speed Automatic',
     engine: '1999cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2023_Kia_Sportage_EX_in_Wolf_Gray%2C_Front_Left%2C_12-18-2022.jpg/1280px-2023_Kia_Sportage_EX_in_Wolf_Gray%2C_Front_Left%2C_12-18-2022.jpg',
+    image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80',
   },
   {
     id: '18',
@@ -259,7 +258,7 @@ export const CARS = [
     transmission: '8-Speed Automatic',
     engine: '1999cc',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2023_Kia_Sportage_X-Line_in_Gravity_Gray%2C_Front_Right%2C_09-25-2022.jpg/1280px-2023_Kia_Sportage_X-Line_in_Gravity_Gray%2C_Front_Right%2C_09-25-2022.jpg',
+    image: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&q=80',
   },
   {
     id: '19',
@@ -273,7 +272,7 @@ export const CARS = [
     transmission: '4-Speed Automatic',
     engine: '998cc',
     location: 'Rawalpindi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/2021_Kia_Picanto_%28JA%29_1.2_EX_hatchback_%28Indonesia%29_front_view.jpg/1280px-2021_Kia_Picanto_%28JA%29_1.2_EX_hatchback_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&q=80',
   },
   {
     id: '20',
@@ -287,7 +286,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '1368cc Turbo',
     location: 'Islamabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2021_Kia_Stonic_%28YB%29_1.4_EX_wagon_%28Indonesia%29_front_view.jpg/1280px-2021_Kia_Stonic_%28YB%29_1.4_EX_wagon_%28Indonesia%29_front_view.jpg',
+    image: 'https://images.unsplash.com/photo-1494976388531-d1058494ceb8?w=600&q=80',
   },
 
   // Hyundai Cars
@@ -303,7 +302,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '1999cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2022_Hyundai_Tucson_Limited_%28NX4%29_in_Amazon_Gray%2C_Front_Left%2C_10-22-2022.jpg/1280px-2022_Hyundai_Tucson_Limited_%28NX4%29_in_Amazon_Gray%2C_Front_Left%2C_10-22-2022.jpg',
+    image: 'https://images.unsplash.com/photo-1629897048514-3dd7414fe72a?w=600&q=80',
   },
   {
     id: '22',
@@ -317,7 +316,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1999cc',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2021_Hyundai_Elantra_Limited_%28CN7%29_in_Portofino_Gray%2C_Front_Left%2C_11-28-2020.jpg/1280px-2021_Hyundai_Elantra_Limited_%28CN7%29_in_Portofino_Gray%2C_Front_Left%2C_11-28-2020.jpg',
+    image: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=600&q=80',
   },
   {
     id: '23',
@@ -331,7 +330,7 @@ export const CARS = [
     transmission: '8-Speed Automatic',
     engine: '1999cc',
     location: 'Islamabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2020_Hyundai_Sonata_Limited_in_Portofino_Gray%2C_Front_Left%2C_07-19-2020.jpg/1280px-2020_Hyundai_Sonata_Limited_in_Portofino_Gray%2C_Front_Left%2C_07-19-2020.jpg',
+    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80',
   },
 
   // Changan Cars
@@ -347,7 +346,7 @@ export const CARS = [
     transmission: 'DCT Automatic',
     engine: '1498cc',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Changan_Alsvin_001.jpg/1280px-Changan_Alsvin_001.jpg',
+    image: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?w=600&q=80',
   },
   {
     id: '25',
@@ -361,7 +360,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1498cc Turbo',
     location: 'Faisalabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Changan_UNI-T_001.jpg/1280px-Changan_UNI-T_001.jpg',
+    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80',
   },
 
   // MG Cars
@@ -377,7 +376,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1490cc Turbo',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2021_MG_HS_Exclusive_%28facelift%29%2C_front_12.7.21.jpg/1280px-2021_MG_HS_Exclusive_%28facelift%29%2C_front_12.7.21.jpg',
+    image: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=600&q=80',
   },
   {
     id: '27',
@@ -391,7 +390,7 @@ export const CARS = [
     transmission: 'Single Speed',
     engine: '177 HP Electric Motor',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2022_MG_ZS_EV_%28facelift%29%2C_front_10.5.21.jpg/1280px-2022_MG_ZS_EV_%28facelift%29%2C_front_10.5.21.jpg',
+    image: 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&q=80',
   },
 
   // Proton Cars
@@ -407,7 +406,7 @@ export const CARS = [
     transmission: '4-Speed Automatic',
     engine: '1332cc',
     location: 'Islamabad',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/2022_Proton_Saga_1.3_Premium_S_A%2FM_%28BT3%29_front_view%2C_Low_Yat_Plaza.jpg/1280px-2022_Proton_Saga_1.3_Premium_S_A%2FM_%28BT3%29_front_view%2C_Low_Yat_Plaza.jpg',
+    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&q=80',
   },
   {
     id: '29',
@@ -421,7 +420,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1477cc Turbo',
     location: 'Rawalpindi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2020_Proton_X70_Premium_X_%28CKD%29%2C_front_9.24.20.jpg/1280px-2020_Proton_X70_Premium_X_%28CKD%29%2C_front_9.24.20.jpg',
+    image: 'https://images.unsplash.com/photo-1612825173281-9a193378527e?w=600&q=80',
   },
 
   // Haval Cars
@@ -437,7 +436,7 @@ export const CARS = [
     transmission: 'DHT Automatic',
     engine: '1.5L Turbo Hybrid',
     location: 'Karachi',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/2022_Haval_H6_Ultra_%28B01%29%2C_front_10.4.22.jpg/1280px-2022_Haval_H6_Ultra_%28B01%29%2C_front_10.4.22.jpg',
+    image: 'https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&q=80',
   },
   {
     id: '31',
@@ -451,23 +450,23 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1497cc Turbo',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2021_Haval_Jolion_Ultra_%28A01%29%2C_front_1.10.22.jpg/1280px-2021_Haval_Jolion_Ultra_%28A01%29%2C_front_1.10.22.jpg',
+    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80',
   },
 
-  // DFSK / Prince Cars
+  // Mercedes
   {
     id: '32',
-    name: 'DFSK Glory 580 Pro',
-    brand: 'DFSK',
-    year: 2024,
-    price: 6199000,
-    color: 'Pearl White',
-    mileage: '0 KM',
+    name: 'Mercedes-Benz E200',
+    brand: 'Mercedes',
+    year: 2023,
+    price: 32000000,
+    color: 'Obsidian Black',
+    mileage: '5000 KM',
     fuelType: 'Petrol',
-    transmission: 'CVT Automatic',
-    engine: '1498cc Turbo',
+    transmission: '9-Speed Automatic',
+    engine: '1991cc Turbo',
     location: 'Lahore',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/DFSK_Glory_580_%28front%29%2C_Tangerang.jpg/1280px-DFSK_Glory_580_%28front%29%2C_Tangerang.jpg',
+    image: 'https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=600&q=80',
   },
 ];
 
