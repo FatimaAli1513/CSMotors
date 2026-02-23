@@ -1,4 +1,5 @@
 // Car Shop Inventory - Pakistan Market Real Cars
+// Using reliable Unsplash images - Replace with your own local images for best results
 
 export const CARS = [
   // Toyota Cars
@@ -14,7 +15,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1798cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=600&q=80',
+    image: 'https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '2',
@@ -28,7 +29,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1598cc',
     location: 'Islamabad',
-    image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=600&q=80',
+    image: 'https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '3',
@@ -42,7 +43,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1496cc',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '4',
@@ -56,7 +57,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '2755cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1638459/pexels-photo-1638459.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '5',
@@ -70,7 +71,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '2755cc',
     location: 'Rawalpindi',
-    image: 'https://images.unsplash.com/photo-1559416523-140ddc3d238c?w=600&q=80',
+    image: 'https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '6',
@@ -84,7 +85,7 @@ export const CARS = [
     transmission: '10-Speed Automatic',
     engine: '3444cc Twin Turbo',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=600&q=80',
+    image: 'https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '7',
@@ -98,7 +99,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '2755cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1625231334168-24f10d89a978?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Honda Cars
@@ -114,7 +115,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=600&q=80',
+    image: 'https://images.pexels.com/photos/3752169/pexels-photo-3752169.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '9',
@@ -128,7 +129,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
     location: 'Islamabad',
-    image: 'https://images.unsplash.com/photo-1619682817481-e994891cd1f5?w=600&q=80',
+    image: 'https://images.pexels.com/photos/3786091/pexels-photo-3786091.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '10',
@@ -142,7 +143,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=600&q=80',
+    image: 'https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '11',
@@ -156,7 +157,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc',
     location: 'Faisalabad',
-    image: 'https://images.unsplash.com/photo-1568844293986-8c8a5a8afe0d?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1231643/pexels-photo-1231643.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '12',
@@ -170,7 +171,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1498cc',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Suzuki Cars
@@ -186,7 +187,7 @@ export const CARS = [
     transmission: 'AGS Automatic',
     engine: '660cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1077785/pexels-photo-1077785.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '14',
@@ -200,7 +201,7 @@ export const CARS = [
     transmission: 'AGS Automatic',
     engine: '998cc',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80',
+    image: 'https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '15',
@@ -214,7 +215,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1197cc',
     location: 'Islamabad',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80',
+    image: 'https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '16',
@@ -228,7 +229,7 @@ export const CARS = [
     transmission: 'AGS Automatic',
     engine: '998cc',
     location: 'Multan',
-    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&q=80',
+    image: 'https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // KIA Cars
@@ -244,7 +245,7 @@ export const CARS = [
     transmission: '8-Speed Automatic',
     engine: '1999cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '18',
@@ -258,7 +259,7 @@ export const CARS = [
     transmission: '8-Speed Automatic',
     engine: '1999cc',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&q=80',
+    image: 'https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '19',
@@ -272,7 +273,7 @@ export const CARS = [
     transmission: '4-Speed Automatic',
     engine: '998cc',
     location: 'Rawalpindi',
-    image: 'https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&q=80',
+    image: 'https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '20',
@@ -286,7 +287,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '1368cc Turbo',
     location: 'Islamabad',
-    image: 'https://images.unsplash.com/photo-1494976388531-d1058494ceb8?w=600&q=80',
+    image: 'https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Hyundai Cars
@@ -302,7 +303,7 @@ export const CARS = [
     transmission: '6-Speed Automatic',
     engine: '1999cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1629897048514-3dd7414fe72a?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '22',
@@ -316,7 +317,7 @@ export const CARS = [
     transmission: 'CVT Automatic',
     engine: '1999cc',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=600&q=80',
+    image: 'https://images.pexels.com/photos/337909/pexels-photo-337909.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '23',
@@ -330,7 +331,7 @@ export const CARS = [
     transmission: '8-Speed Automatic',
     engine: '1999cc',
     location: 'Islamabad',
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80',
+    image: 'https://images.pexels.com/photos/100656/pexels-photo-100656.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Changan Cars
@@ -346,7 +347,7 @@ export const CARS = [
     transmission: 'DCT Automatic',
     engine: '1498cc',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1rians/pexels-photo-1164778.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '25',
@@ -360,7 +361,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1498cc Turbo',
     location: 'Faisalabad',
-    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80',
+    image: 'https://images.pexels.com/photos/707046/pexels-photo-707046.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // MG Cars
@@ -376,7 +377,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1490cc Turbo',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1104768/pexels-photo-1104768.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '27',
@@ -390,7 +391,7 @@ export const CARS = [
     transmission: 'Single Speed',
     engine: '177 HP Electric Motor',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&q=80',
+    image: 'https://images.pexels.com/photos/3729465/pexels-photo-3729465.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Proton Cars
@@ -406,7 +407,7 @@ export const CARS = [
     transmission: '4-Speed Automatic',
     engine: '1332cc',
     location: 'Islamabad',
-    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&q=80',
+    image: 'https://images.pexels.com/photos/627678/pexels-photo-627678.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '29',
@@ -420,7 +421,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1477cc Turbo',
     location: 'Rawalpindi',
-    image: 'https://images.unsplash.com/photo-1612825173281-9a193378527e?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Haval Cars
@@ -436,7 +437,7 @@ export const CARS = [
     transmission: 'DHT Automatic',
     engine: '1.5L Turbo Hybrid',
     location: 'Karachi',
-    image: 'https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600&q=80',
+    image: 'https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
     id: '31',
@@ -450,7 +451,7 @@ export const CARS = [
     transmission: '7-Speed DCT',
     engine: '1497cc Turbo',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80',
+    image: 'https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 
   // Mercedes
@@ -466,7 +467,7 @@ export const CARS = [
     transmission: '9-Speed Automatic',
     engine: '1991cc Turbo',
     location: 'Lahore',
-    image: 'https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=600&q=80',
+    image: 'https://images.pexels.com/photos/136872/pexels-photo-136872.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 ];
 
