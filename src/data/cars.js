@@ -82,11 +82,12 @@ export const CARS = [
 
 // Shop Info
 export const SHOP_INFO = {
-  name: 'CS Motors',
-  address: 'Shop #12, Main Boulevard, Gulberg III, Lahore',
+  name: 'Capital Smart Motors',
+  fullName: 'CAPITAL SMART MOTORS (PRIVATE) LIMITED',
+  address: '13-H, Gulberg II, Lahore, 54000 Pakistan',
   phone: '+92 300 1234567',
   timing: 'Mon - Sat: 10 AM - 8 PM',
-  mapLink: 'https://maps.google.com/?q=Gulberg+III+Lahore',
+  mapLink: 'https://maps.google.com/?q=13-H+Gulberg+II+Lahore+Pakistan',
 };
 
 export const formatPrice = (price) => {

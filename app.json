@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CS Motors",
-    "slug": "cs-motors",
+    "name": "Capital Smart Motors",
+    "slug": "capital-smart-motors",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,11 +17,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.csmotors.app",
+      "bundleIdentifier": "com.capitalsmartmotors.app",
       "buildNumber": "1"
     },
     "android": {
-      "package": "com.csmotors.app",
+      "package": "com.capitalsmartmotors.app",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",

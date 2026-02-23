@@ -38,8 +38,8 @@ const ContactScreen = () => {
           <View style={styles.logoCircle}>
             <Ionicons name="storefront" size={40} color={COLORS.primary} />
           </View>
-          <Text style={styles.shopName}>{SHOP_INFO.name}</Text>
-          <Text style={styles.shopTagline}>Premium Car Shop</Text>
+          <Text style={styles.shopName}>Capital Smart Motors</Text>
+          <Text style={styles.shopTagline}>(Private) Limited</Text>
         </View>
 
         {/* Address Section */}
@@ -95,7 +95,7 @@ const ContactScreen = () => {
           </Text>
         </View>
 
-        <View style={{ height: 100 }} />
+        <View style={{ height: 120 }} />
       </ScrollView>
     </SafeAreaView>
   );

@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   },
   list: {
     paddingHorizontal: 20,
-    paddingBottom: 100,
+    paddingBottom: 120,
   },
   carCard: {
     backgroundColor: COLORS.surface,

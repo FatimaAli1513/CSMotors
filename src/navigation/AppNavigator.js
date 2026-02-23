@@ -24,9 +24,15 @@ const HomeTabs = () => {
         tabBarStyle: {
           backgroundColor: COLORS.surface,
           borderTopColor: COLORS.border,
-          height: Platform.OS === 'ios' ? 85 : 65,
-          paddingTop: 8,
-          paddingBottom: Platform.OS === 'ios' ? 28 : 10,
+          borderTopWidth: 1,
+          height: Platform.OS === 'ios' ? 90 : 70,
+          paddingTop: 10,
+          paddingBottom: Platform.OS === 'ios' ? 30 : 15,
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          elevation: 10,
         },
         tabBarLabelStyle: {
           fontSize: 12,

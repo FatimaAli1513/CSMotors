@@ -21,8 +21,8 @@ const HomeScreen = ({ navigation }) => {
       {/* Header */}
       <View style={styles.header}>
         <View>
-          <Text style={styles.shopName}>{SHOP_INFO.name}</Text>
-          <Text style={styles.tagline}>Premium Car Shop</Text>
+          <Text style={styles.shopName}>Capital Smart Motors</Text>
+          <Text style={styles.tagline}>Your Trusted Car Dealer</Text>
         </View>
         <View style={styles.logo}>
           <Ionicons name="car-sport" size={28} color={COLORS.primary} />
@@ -76,7 +76,7 @@ const HomeScreen = ({ navigation }) => {
           <Text style={styles.bottomAddress}>{SHOP_INFO.address}</Text>
         </View>
 
-        <View style={{ height: 100 }} />
+        <View style={{ height: 120 }} />
       </ScrollView>
     </SafeAreaView>
   );
