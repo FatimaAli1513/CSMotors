@@ -1,301 +1,102 @@
-import React, { useState, useCallback } from 'react';
+import React from 'react';
 import {
   View,
   Text,
   StyleSheet,
-  ScrollView,
   TouchableOpacity,
-  TextInput,
   StatusBar,
   Linking,
-  Alert,
-  KeyboardAvoidingView,
-  Platform,
+  ScrollView,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import { LinearGradient } from 'expo-linear-gradient';
-import { COLORS, SIZES } from '../constants/colors';
-
-const CONTACT_INFO = {
-  phone: '+92 300 1234567',
-  email: 'info@csmotors.pk',
-  address: 'Main Boulevard, Gulberg III, Lahore, Pakistan',
-  hours: 'Mon - Sat: 10:00 AM - 8:00 PM',
-  whatsapp: '+923001234567',
-};
+import { COLORS } from '../constants/colors';
+import { SHOP_INFO } from '../data/cars';
 
 const ContactScreen = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
+  const handleCall = () => {
+    Linking.openURL(`tel:${SHOP_INFO.phone}`);
+  };
 
-  const handleCall = useCallback(() => {
-    Linking.openURL(`tel:${CONTACT_INFO.whatsapp}`);
-  }, []);
-
-  const handleEmail = useCallback(() => {
-    Linking.openURL(`mailto:${CONTACT_INFO.email}`);
-  }, []);
-
-  const handleWhatsApp = useCallback(() => {
-    Linking.openURL(`whatsapp://send?phone=${CONTACT_INFO.whatsapp.replace('+', '')}`);
-  }, []);
-
-  const handleLocation = useCallback(() => {
-    const address = encodeURIComponent(CONTACT_INFO.address);
-    Linking.openURL(`https://maps.google.com/?q=${address}`);
-  }, []);
-
-  const handleSubmit = useCallback(() => {
-    if (!name.trim() || !email.trim() || !message.trim()) {
-      Alert.alert('Error', 'Please fill in all required fields');
-      return;
-    }
-
-    // Here you would typically send the form data to your backend
-    Alert.alert(
-      'Message Sent!',
-      'Thank you for contacting us. We will get back to you soon.',
-      [{ text: 'OK' }]
-    );
-
-    // Clear form
-    setName('');
-    setEmail('');
-    setPhone('');
-    setMessage('');
-  }, [name, email, message]);
-
-  const ContactCard = ({ icon, title, subtitle, onPress, color = COLORS.primary }) => (
-    <TouchableOpacity
-      style={styles.contactCard}
-      onPress={onPress}
-      activeOpacity={0.8}
-      accessible={true}
-      accessibilityLabel={`${title}: ${subtitle}`}
-      accessibilityRole="button"
-    >
-      <View style={[styles.contactIconContainer, { backgroundColor: `${color}20` }]}>
-        <Ionicons name={icon} size={24} color={color} />
-      </View>
-      <View style={styles.contactCardContent}>
-        <Text style={styles.contactCardTitle}>{title}</Text>
-        <Text style={styles.contactCardSubtitle}>{subtitle}</Text>
-      </View>
-      <Ionicons name="chevron-forward" size={20} color={COLORS.textMuted} />
-    </TouchableOpacity>
-  );
+  const handleGetDirections = () => {
+    Linking.openURL(SHOP_INFO.mapLink);
+  };
 
   return (
-    <SafeAreaView style={styles.container} edges={['top']}>
-      <StatusBar barStyle="light-content" backgroundColor={COLORS.background} />
+    <SafeAreaView style={styles.container}>
+      <StatusBar barStyle="light-content" />
       
-      <KeyboardAvoidingView 
-        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        style={styles.keyboardView}
-      >
-        <ScrollView showsVerticalScrollIndicator={false}>
-          {/* Header */}
-          <View style={styles.header}>
-            <Text style={styles.title}>Contact Us</Text>
-            <Text style={styles.subtitle}>We'd love to hear from you</Text>
-          </View>
+      <ScrollView showsVerticalScrollIndicator={false}>
+        {/* Header */}
+        <View style={styles.header}>
+          <Text style={styles.title}>Our Shop</Text>
+          <Text style={styles.subtitle}>Visit us to purchase your dream car</Text>
+        </View>
 
-          {/* Hero Section */}
-          <View style={styles.heroSection}>
-            <LinearGradient
-              colors={[COLORS.primary, COLORS.primaryDark]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 1 }}
-              style={styles.heroGradient}
-            >
-              <View style={styles.heroContent}>
-                <Text style={styles.heroTitle}>CS Motors</Text>
-                <Text style={styles.heroSubtitle}>Your Premium Car Destination</Text>
-                <View style={styles.heroStats}>
-                  <View style={styles.heroStatItem}>
-                    <Text style={styles.heroStatNumber}>10+</Text>
-                    <Text style={styles.heroStatLabel}>Years</Text>
-                  </View>
-                  <View style={styles.heroStatDivider} />
-                  <View style={styles.heroStatItem}>
-                    <Text style={styles.heroStatNumber}>500+</Text>
-                    <Text style={styles.heroStatLabel}>Happy Clients</Text>
-                  </View>
-                  <View style={styles.heroStatDivider} />
-                  <View style={styles.heroStatItem}>
-                    <Text style={styles.heroStatNumber}>100%</Text>
-                    <Text style={styles.heroStatLabel}>Authentic</Text>
-                  </View>
-                </View>
-              </View>
-            </LinearGradient>
+        {/* Shop Card */}
+        <View style={styles.shopCard}>
+          <View style={styles.logoCircle}>
+            <Ionicons name="storefront" size={40} color={COLORS.primary} />
           </View>
+          <Text style={styles.shopName}>{SHOP_INFO.name}</Text>
+          <Text style={styles.shopTagline}>Premium Car Shop</Text>
+        </View>
 
-          {/* Quick Contact */}
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Quick Contact</Text>
-            
-            <ContactCard
-              icon="call"
-              title="Phone"
-              subtitle={CONTACT_INFO.phone}
-              onPress={handleCall}
-            />
-            
-            <ContactCard
-              icon="logo-whatsapp"
-              title="WhatsApp"
-              subtitle="Send us a message"
-              onPress={handleWhatsApp}
-              color="#25D366"
-            />
-            
-            <ContactCard
-              icon="mail"
-              title="Email"
-              subtitle={CONTACT_INFO.email}
-              onPress={handleEmail}
-            />
-            
-            <ContactCard
-              icon="location"
-              title="Location"
-              subtitle={CONTACT_INFO.address}
-              onPress={handleLocation}
-              color={COLORS.accent}
-            />
-            
-            <ContactCard
-              icon="time"
-              title="Business Hours"
-              subtitle={CONTACT_INFO.hours}
-              onPress={() => {}}
-              color={COLORS.warning}
-            />
-          </View>
-
-          {/* Contact Form */}
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Send a Message</Text>
-            
-            <View style={styles.formContainer}>
-              <View style={styles.inputContainer}>
-                <Text style={styles.inputLabel}>Name *</Text>
-                <TextInput
-                  style={styles.input}
-                  value={name}
-                  onChangeText={setName}
-                  placeholder="Your full name"
-                  placeholderTextColor={COLORS.textMuted}
-                  accessible={true}
-                  accessibilityLabel="Name input"
-                />
-              </View>
-              
-              <View style={styles.inputContainer}>
-                <Text style={styles.inputLabel}>Email *</Text>
-                <TextInput
-                  style={styles.input}
-                  value={email}
-                  onChangeText={setEmail}
-                  placeholder="your@email.com"
-                  placeholderTextColor={COLORS.textMuted}
-                  keyboardType="email-address"
-                  autoCapitalize="none"
-                  accessible={true}
-                  accessibilityLabel="Email input"
-                />
-              </View>
-              
-              <View style={styles.inputContainer}>
-                <Text style={styles.inputLabel}>Phone</Text>
-                <TextInput
-                  style={styles.input}
-                  value={phone}
-                  onChangeText={setPhone}
-                  placeholder="03XX-XXXXXXX"
-                  placeholderTextColor={COLORS.textMuted}
-                  keyboardType="phone-pad"
-                  accessible={true}
-                  accessibilityLabel="Phone input"
-                />
-              </View>
-              
-              <View style={styles.inputContainer}>
-                <Text style={styles.inputLabel}>Message *</Text>
-                <TextInput
-                  style={[styles.input, styles.textArea]}
-                  value={message}
-                  onChangeText={setMessage}
-                  placeholder="How can we help you?"
-                  placeholderTextColor={COLORS.textMuted}
-                  multiline
-                  numberOfLines={4}
-                  textAlignVertical="top"
-                  accessible={true}
-                  accessibilityLabel="Message input"
-                />
-              </View>
-              
-              <TouchableOpacity
-                style={styles.submitButton}
-                onPress={handleSubmit}
-                activeOpacity={0.8}
-                accessible={true}
-                accessibilityLabel="Send message"
-                accessibilityRole="button"
-              >
-                <Text style={styles.submitButtonText}>Send Message</Text>
-                <Ionicons name="send" size={18} color={COLORS.background} />
-              </TouchableOpacity>
+        {/* Address Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Shop Address</Text>
+          <View style={styles.addressCard}>
+            <Ionicons name="location" size={28} color={COLORS.primary} />
+            <View style={styles.addressInfo}>
+              <Text style={styles.addressText}>{SHOP_INFO.address}</Text>
             </View>
           </View>
+          <TouchableOpacity style={styles.directionsBtn} onPress={handleGetDirections}>
+            <Ionicons name="navigate" size={20} color={COLORS.background} />
+            <Text style={styles.directionsBtnText}>Get Directions on Google Maps</Text>
+          </TouchableOpacity>
+        </View>
 
-          {/* Social Links */}
-          <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Follow Us</Text>
-            <View style={styles.socialLinks}>
-              <TouchableOpacity
-                style={styles.socialButton}
-                accessible={true}
-                accessibilityLabel="Facebook"
-                accessibilityRole="button"
-              >
-                <Ionicons name="logo-facebook" size={24} color="#1877F2" />
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={styles.socialButton}
-                accessible={true}
-                accessibilityLabel="Instagram"
-                accessibilityRole="button"
-              >
-                <Ionicons name="logo-instagram" size={24} color="#E4405F" />
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={styles.socialButton}
-                accessible={true}
-                accessibilityLabel="YouTube"
-                accessibilityRole="button"
-              >
-                <Ionicons name="logo-youtube" size={24} color="#FF0000" />
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={styles.socialButton}
-                accessible={true}
-                accessibilityLabel="Twitter"
-                accessibilityRole="button"
-              >
-                <Ionicons name="logo-twitter" size={24} color="#1DA1F2" />
-              </TouchableOpacity>
+        {/* Timing Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Business Hours</Text>
+          <View style={styles.timingCard}>
+            <View style={styles.timingRow}>
+              <Ionicons name="time" size={22} color={COLORS.primary} />
+              <Text style={styles.timingText}>{SHOP_INFO.timing}</Text>
+            </View>
+            <View style={styles.timingRow}>
+              <Ionicons name="close-circle" size={22} color="#EF4444" />
+              <Text style={styles.timingText}>Sunday: Closed</Text>
             </View>
           </View>
+        </View>
 
-          <View style={styles.bottomSpacer} />
-        </ScrollView>
-      </KeyboardAvoidingView>
+        {/* Contact Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Contact Number</Text>
+          <TouchableOpacity style={styles.phoneCard} onPress={handleCall}>
+            <View style={styles.phoneIcon}>
+              <Ionicons name="call" size={24} color={COLORS.text} />
+            </View>
+            <View style={styles.phoneInfo}>
+              <Text style={styles.phoneNumber}>{SHOP_INFO.phone}</Text>
+              <Text style={styles.phoneLabel}>Tap to call</Text>
+            </View>
+            <Ionicons name="chevron-forward" size={20} color={COLORS.textSecondary} />
+          </TouchableOpacity>
+        </View>
+
+        {/* Info Note */}
+        <View style={styles.infoNote}>
+          <Ionicons name="information-circle" size={24} color={COLORS.primary} />
+          <Text style={styles.infoText}>
+            All purchases are made at our shop location. Please visit us during business hours to view and buy cars.
+          </Text>
+        </View>
+
+        <View style={{ height: 100 }} />
+      </ScrollView>
     </SafeAreaView>
   );
 };
@@ -305,174 +106,147 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: COLORS.background,
   },
-  keyboardView: {
-    flex: 1,
-  },
   header: {
-    paddingHorizontal: SIZES.padding,
-    paddingVertical: SIZES.padding,
+    padding: 20,
   },
   title: {
     color: COLORS.text,
-    fontSize: 28,
-    fontWeight: '800',
+    fontSize: 26,
+    fontWeight: 'bold',
   },
   subtitle: {
     color: COLORS.textSecondary,
-    fontSize: 15,
+    fontSize: 14,
     marginTop: 4,
   },
-  heroSection: {
-    paddingHorizontal: SIZES.padding,
-    marginBottom: SIZES.paddingLarge,
-  },
-  heroGradient: {
-    borderRadius: SIZES.radiusLarge,
-    padding: SIZES.paddingLarge,
-  },
-  heroContent: {
+  shopCard: {
     alignItems: 'center',
-  },
-  heroTitle: {
-    color: COLORS.background,
-    fontSize: 28,
-    fontWeight: '800',
-    marginBottom: 8,
-  },
-  heroSubtitle: {
-    color: 'rgba(0,0,0,0.6)',
-    fontSize: 14,
+    backgroundColor: COLORS.surface,
+    marginHorizontal: 20,
+    padding: 30,
+    borderRadius: 20,
     marginBottom: 20,
   },
-  heroStats: {
-    flexDirection: 'row',
+  logoCircle: {
+    width: 80,
+    height: 80,
+    backgroundColor: COLORS.background,
+    borderRadius: 40,
+    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.2)',
-    borderRadius: SIZES.radius,
-    paddingVertical: 16,
-    paddingHorizontal: 24,
+    borderWidth: 2,
+    borderColor: COLORS.primary,
   },
-  heroStatItem: {
-    alignItems: 'center',
-    paddingHorizontal: 16,
+  shopName: {
+    color: COLORS.primary,
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginTop: 16,
   },
-  heroStatNumber: {
-    color: COLORS.background,
-    fontSize: 20,
-    fontWeight: '800',
-  },
-  heroStatLabel: {
-    color: 'rgba(0,0,0,0.6)',
-    fontSize: 11,
+  shopTagline: {
+    color: COLORS.textSecondary,
+    fontSize: 14,
     marginTop: 4,
   },
-  heroStatDivider: {
-    width: 1,
-    height: 30,
-    backgroundColor: 'rgba(0,0,0,0.2)',
-  },
   section: {
-    paddingHorizontal: SIZES.padding,
-    marginBottom: SIZES.paddingLarge,
+    marginHorizontal: 20,
+    marginBottom: 24,
   },
   sectionTitle: {
     color: COLORS.text,
-    fontSize: 18,
-    fontWeight: '700',
-    marginBottom: 16,
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 12,
   },
-  contactCard: {
+  addressCard: {
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: COLORS.surface,
     padding: 16,
-    borderRadius: SIZES.radius,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: COLORS.border,
-  },
-  contactIconContainer: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  contactCardContent: {
-    flex: 1,
-    marginLeft: 16,
-  },
-  contactCardTitle: {
-    color: COLORS.text,
-    fontSize: 15,
-    fontWeight: '600',
-  },
-  contactCardSubtitle: {
-    color: COLORS.textSecondary,
-    fontSize: 13,
-    marginTop: 2,
-  },
-  formContainer: {
-    backgroundColor: COLORS.surface,
-    padding: SIZES.padding,
-    borderRadius: SIZES.radius,
-    borderWidth: 1,
-    borderColor: COLORS.border,
-  },
-  inputContainer: {
-    marginBottom: 16,
-  },
-  inputLabel: {
-    color: COLORS.text,
-    fontSize: 14,
-    fontWeight: '600',
-    marginBottom: 8,
-  },
-  input: {
-    backgroundColor: COLORS.background,
-    borderRadius: SIZES.radiusSmall,
-    paddingHorizontal: 16,
-    paddingVertical: 14,
-    color: COLORS.text,
-    fontSize: 15,
-    borderWidth: 1,
-    borderColor: COLORS.border,
-  },
-  textArea: {
-    height: 100,
-    paddingTop: 14,
-  },
-  submitButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-    backgroundColor: COLORS.primary,
-    paddingVertical: 16,
-    borderRadius: SIZES.radius,
-    marginTop: 8,
-  },
-  submitButtonText: {
-    color: COLORS.background,
-    fontSize: 16,
-    fontWeight: '700',
-  },
-  socialLinks: {
-    flexDirection: 'row',
+    borderRadius: 12,
     gap: 12,
   },
-  socialButton: {
-    width: 56,
-    height: 56,
+  addressInfo: {
+    flex: 1,
+  },
+  addressText: {
+    color: COLORS.text,
+    fontSize: 15,
+    lineHeight: 22,
+  },
+  directionsBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: COLORS.primary,
+    padding: 16,
+    borderRadius: 12,
+    marginTop: 12,
+    gap: 10,
+  },
+  directionsBtnText: {
+    color: COLORS.background,
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  timingCard: {
     backgroundColor: COLORS.surface,
-    borderRadius: 28,
+    padding: 16,
+    borderRadius: 12,
+    gap: 12,
+  },
+  timingRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  timingText: {
+    color: COLORS.text,
+    fontSize: 15,
+  },
+  phoneCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: COLORS.surface,
+    padding: 16,
+    borderRadius: 12,
+  },
+  phoneIcon: {
+    width: 50,
+    height: 50,
+    backgroundColor: COLORS.primary,
+    borderRadius: 25,
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: COLORS.border,
   },
-  bottomSpacer: {
-    height: 100,
+  phoneInfo: {
+    flex: 1,
+    marginLeft: 14,
+  },
+  phoneNumber: {
+    color: COLORS.text,
+    fontSize: 17,
+    fontWeight: 'bold',
+  },
+  phoneLabel: {
+    color: COLORS.textSecondary,
+    fontSize: 12,
+    marginTop: 2,
+  },
+  infoNote: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    backgroundColor: 'rgba(212,175,55,0.1)',
+    marginHorizontal: 20,
+    padding: 16,
+    borderRadius: 12,
+    gap: 12,
+  },
+  infoText: {
+    flex: 1,
+    color: COLORS.textSecondary,
+    fontSize: 13,
+    lineHeight: 20,
   },
 });
 
