@@ -12,7 +12,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1798cc',
-    image: 'https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/170767/2024-corolla-exterior-right-front-three-quarter.jpeg?isig=0&q=80',
   },
   {
     id: '2',
@@ -25,7 +26,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1598cc',
-    image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/170767/2024-corolla-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80',
   },
   {
     id: '3',
@@ -38,7 +40,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1496cc',
-    image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/121943/yaris-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
   {
     id: '4',
@@ -51,7 +54,8 @@ export const CARS = [
     fuelType: 'Diesel',
     transmission: '6-Speed Automatic',
     engine: '2755cc',
-    image: 'https://images.unsplash.com/photo-1625231334168-24f10d89a978?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-19.jpeg?isig=0&q=80',
   },
   {
     id: '5',
@@ -64,7 +68,8 @@ export const CARS = [
     fuelType: 'Diesel',
     transmission: '6-Speed Automatic',
     engine: '2755cc',
-    image: 'https://images.unsplash.com/photo-1559416523-140ddc3d238c?w=800',
+    location: 'Rawalpindi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/156665/hilux-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80',
   },
   {
     id: '6',
@@ -77,7 +82,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '10-Speed Automatic',
     engine: '3444cc Twin Turbo',
-    image: 'https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/110233/land-cruiser-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
 
   // Honda Cars
@@ -92,7 +98,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
-    image: 'https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/134287/civic-exterior-right-front-three-quarter-63.jpeg?isig=0&q=80',
   },
   {
     id: '8',
@@ -105,7 +112,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
-    image: 'https://images.unsplash.com/photo-1619682817481-e994891cd1f5?w=800',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/134287/civic-exterior-right-front-three-quarter-62.jpeg?isig=0&q=80',
   },
   {
     id: '9',
@@ -118,7 +126,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc',
-    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/134113/city-exterior-right-front-three-quarter-76.jpeg?isig=0&q=80',
   },
   {
     id: '10',
@@ -131,7 +140,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc',
-    image: 'https://images.unsplash.com/photo-1568844293986-8c8a5a8afe0d?w=800',
+    location: 'Faisalabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/122409/br-v-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
 
   // Suzuki Cars
@@ -146,7 +156,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'AGS Automatic',
     engine: '660cc',
-    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/51435/alto-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80',
   },
   {
     id: '12',
@@ -159,7 +170,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'AGS Automatic',
     engine: '998cc',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/46457/new-cultus-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80',
   },
   {
     id: '13',
@@ -172,7 +184,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1197cc',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/54399/swift-exterior-right-front-three-quarter-13.jpeg?isig=0&q=80',
   },
   {
     id: '14',
@@ -185,7 +198,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'AGS Automatic',
     engine: '998cc',
-    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800',
+    location: 'Multan',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/47051/wagon-r-exterior-right-front-three-quarter-6.jpeg?isig=0&q=80',
   },
 
   // KIA Cars
@@ -200,7 +214,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '8-Speed Automatic',
     engine: '1999cc',
-    image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/141115/sportage-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
   {
     id: '16',
@@ -213,7 +228,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '8-Speed Automatic',
     engine: '1999cc',
-    image: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/141115/sportage-exterior-right-front-three-quarter-20.jpeg?isig=0&q=80',
   },
   {
     id: '17',
@@ -226,7 +242,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '4-Speed Automatic',
     engine: '998cc',
-    image: 'https://images.unsplash.com/photo-1542362567-b07e54358753?w=800',
+    location: 'Rawalpindi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/51912/picanto-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80',
   },
   {
     id: '18',
@@ -239,7 +256,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '6-Speed Automatic',
     engine: '1368cc Turbo',
-    image: 'https://images.unsplash.com/photo-1494976388531-d1058494ceb8?w=800',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/130591/stonic-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
 
   // Hyundai Cars
@@ -254,7 +272,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '6-Speed Automatic',
     engine: '1999cc',
-    image: 'https://images.unsplash.com/photo-1629897048514-3dd7414fe72a?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/141113/tucson-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80',
   },
   {
     id: '20',
@@ -267,7 +286,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1999cc',
-    image: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/130591/elantra-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
   {
     id: '21',
@@ -280,7 +300,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '8-Speed Automatic',
     engine: '1999cc',
-    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/97866/sonata-exterior-right-front-three-quarter-12.jpeg?isig=0&q=80',
   },
 
   // Changan Cars
@@ -295,7 +316,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'DCT Automatic',
     engine: '1498cc',
-    image: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/115025/alsvin-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
   {
     id: '23',
@@ -308,7 +330,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '7-Speed DCT',
     engine: '1498cc Turbo',
-    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800',
+    location: 'Faisalabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/106815/uni-t-exterior-right-front-three-quarter.jpeg?isig=0&q=80',
   },
 
   // MG Cars
@@ -323,7 +346,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '7-Speed DCT',
     engine: '1490cc Turbo',
-    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/130583/hs-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80',
   },
   {
     id: '25',
@@ -336,7 +360,8 @@ export const CARS = [
     fuelType: 'Electric',
     transmission: 'Single Speed',
     engine: '177 HP Electric Motor',
-    image: 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/130555/zs-ev-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80',
   },
 
   // Proton Cars
@@ -351,7 +376,8 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '4-Speed Automatic',
     engine: '1332cc',
-    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/112839/saga-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
   {
     id: '27',
@@ -364,48 +390,86 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '7-Speed DCT',
     engine: '1477cc Turbo',
-    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800',
+    location: 'Rawalpindi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/112843/x70-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
 
-  // Luxury Imports
+  // Haval Cars
   {
     id: '28',
-    name: 'Mercedes-Benz E200 AMG',
-    brand: 'Mercedes',
-    year: 2023,
-    price: 32000000,
+    name: 'Haval H6 HEV',
+    brand: 'Haval',
+    year: 2025,
+    price: 13300000,
     color: 'Obsidian Black',
-    mileage: '8000 KM',
-    fuelType: 'Petrol',
-    transmission: '9-Speed Automatic',
-    engine: '1991cc Turbo',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800',
+    mileage: '0 KM',
+    fuelType: 'Hybrid',
+    transmission: 'DHT Automatic',
+    engine: '1.5L Turbo Hybrid',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/144739/h6-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
   {
     id: '29',
-    name: 'BMW 520i M Sport',
-    brand: 'BMW',
-    year: 2023,
-    price: 28500000,
-    color: 'Alpine White',
-    mileage: '5000 KM',
+    name: 'Haval Jolion',
+    brand: 'Haval',
+    year: 2024,
+    price: 7490000,
+    color: 'Hamilton White',
+    mileage: '1500 KM',
     fuelType: 'Petrol',
-    transmission: '8-Speed Automatic',
-    engine: '1998cc Turbo',
-    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800',
+    transmission: '7-Speed DCT',
+    engine: '1497cc Turbo',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/130569/jolion-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
   },
+
+  // Toyota Prado
   {
     id: '30',
-    name: 'Audi A6 45 TFSI',
-    brand: 'Audi',
+    name: 'Toyota Prado TX',
+    brand: 'Toyota',
     year: 2023,
-    price: 26000000,
-    color: 'Mythos Black',
-    mileage: '7000 KM',
+    price: 32000000,
+    color: 'Pearl White',
+    mileage: '8000 KM',
+    fuelType: 'Diesel',
+    transmission: '6-Speed Automatic',
+    engine: '2755cc',
+    location: 'Lahore',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/110233/land-cruiser-prado-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80',
+  },
+
+  // Honda Accord
+  {
+    id: '31',
+    name: 'Honda Accord 2.0 Turbo',
+    brand: 'Honda',
+    year: 2023,
+    price: 18500000,
+    color: 'Platinum White',
+    mileage: '5000 KM',
     fuelType: 'Petrol',
-    transmission: '7-Speed S-Tronic',
-    engine: '1984cc Turbo',
-    image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800',
+    transmission: '10-Speed Automatic',
+    engine: '1993cc Turbo',
+    location: 'Islamabad',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/141867/accord-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
+  },
+
+  // Honda Fit / Vezel
+  {
+    id: '32',
+    name: 'Honda HR-V',
+    brand: 'Honda',
+    year: 2024,
+    price: 8799000,
+    color: 'Crystal Black',
+    mileage: '2000 KM',
+    fuelType: 'Petrol',
+    transmission: 'CVT Automatic',
+    engine: '1498cc',
+    location: 'Karachi',
+    image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/134105/hr-v-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80',
   },
 ];
 
@@ -421,11 +485,14 @@ export const SHOP_INFO = {
 // Get unique brands for filtering
 export const BRANDS = [...new Set(CARS.map(car => car.brand))];
 
+// Get unique locations
+export const LOCATIONS = [...new Set(CARS.map(car => car.location))];
+
 export const formatPrice = (price) => {
   if (price >= 10000000) {
-    return `Rs. ${(price / 10000000).toFixed(1)} Crore`;
+    return `PKR ${(price / 10000000).toFixed(1)} Crore`;
   } else if (price >= 100000) {
-    return `Rs. ${(price / 100000).toFixed(1)} Lac`;
+    return `PKR ${(price / 100000).toFixed(1)} Lac`;
   }
-  return `Rs. ${price.toLocaleString()}`;
+  return `PKR ${price.toLocaleString()}`;
 };
