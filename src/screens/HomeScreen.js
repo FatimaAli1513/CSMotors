@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   Image,
   StatusBar,
+  Linking,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -14,6 +15,9 @@ import { COLORS } from '../constants/colors';
 import { CARS, SHOP_INFO, formatPrice } from '../data/cars';
 
 const HomeScreen = ({ navigation }) => {
+  const handleGetDirections = () => {
+    Linking.openURL(SHOP_INFO.mapLink);
+  };
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="light-content" />
@@ -34,13 +38,13 @@ const HomeScreen = ({ navigation }) => {
         {/* Shop Address Card */}
         <TouchableOpacity 
           style={styles.addressCard}
-          onPress={() => navigation.navigate('ContactTab')}
+          onPress={handleGetDirections}
         >
           <Ionicons name="location" size={24} color={COLORS.primary} />
           <View style={styles.addressInfo}>
             <Text style={styles.addressTitle}>Visit Our Shop</Text>
             <Text style={styles.addressText}>{SHOP_INFO.address}</Text>
-            <Text style={styles.timing}>{SHOP_INFO.timing}</Text>
+            <Text style={styles.timing}>Tap to get directions →</Text>
           </View>
           <Ionicons name="chevron-forward" size={20} color={COLORS.textSecondary} />
         </TouchableOpacity>

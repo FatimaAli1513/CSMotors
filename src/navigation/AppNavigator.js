@@ -9,7 +9,6 @@ import { COLORS } from '../constants/colors';
 import HomeScreen from '../screens/HomeScreen';
 import CarsScreen from '../screens/CarsScreen';
 import CarDetailsScreen from '../screens/CarDetailsScreen';
-import ContactScreen from '../screens/ContactScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -25,14 +24,18 @@ const HomeTabs = () => {
           backgroundColor: COLORS.surface,
           borderTopColor: COLORS.border,
           borderTopWidth: 1,
-          height: Platform.OS === 'ios' ? 90 : 70,
-          paddingTop: 10,
-          paddingBottom: Platform.OS === 'ios' ? 30 : 15,
+          height: Platform.OS === 'ios' ? 95 : 100,
+          paddingTop: 5,
           position: 'absolute',
-          bottom: 0,
-          left: 0,
-          right: 0,
-          elevation: 10,
+          bottom: Platform.OS === 'ios' ? 0 : 10,
+          left: 10,
+          right: 10,
+          borderRadius: 20,
+          elevation: 15,
+          shadowColor: '#000',
+          shadowOffset: { width: 0, height: -2 },
+          shadowOpacity: 0.2,
+          shadowRadius: 10,
         },
         tabBarLabelStyle: {
           fontSize: 12,
@@ -57,16 +60,6 @@ const HomeTabs = () => {
           tabBarLabel: 'Cars',
           tabBarIcon: ({ focused, color }) => (
             <Ionicons name={focused ? 'car-sport' : 'car-sport-outline'} size={24} color={color} />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="ContactTab"
-        component={ContactScreen}
-        options={{
-          tabBarLabel: 'Contact',
-          tabBarIcon: ({ focused, color }) => (
-            <Ionicons name={focused ? 'call' : 'call-outline'} size={24} color={color} />
           ),
         }}
       />
