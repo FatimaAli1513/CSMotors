@@ -12,7 +12,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1798cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6428/original/Toyota_Corolla_Altis_Grande_CVT-i_1.8_Black_Interior.jpg?1671095849',
+    image: 'https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=800',
   },
   {
     id: '2',
@@ -25,7 +25,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1598cc',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6427/original/Corolla_X_Main.jpg?1671095824',
+    image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800',
   },
   {
     id: '3',
@@ -38,7 +38,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1496cc',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6053/original/Toyota-Yaris-Exterior-1.jpg?1602143067',
+    image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800',
   },
   {
     id: '4',
@@ -51,7 +51,7 @@ export const CARS = [
     fuelType: 'Diesel',
     transmission: '6-Speed Automatic',
     engine: '2755cc',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6733/original/Fortuner_2.jpg?1690778506',
+    image: 'https://images.unsplash.com/photo-1625231334168-24f10d89a978?w=800',
   },
   {
     id: '5',
@@ -64,7 +64,7 @@ export const CARS = [
     fuelType: 'Diesel',
     transmission: '6-Speed Automatic',
     engine: '2755cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6760/original/hilux_main.jpg?1693804883',
+    image: 'https://images.unsplash.com/photo-1559416523-140ddc3d238c?w=800',
   },
   {
     id: '6',
@@ -77,7 +77,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '10-Speed Automatic',
     engine: '3444cc Twin Turbo',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6558/original/land_cruiser_main.jpg?1677215832',
+    image: 'https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=800',
   },
 
   // Honda Cars
@@ -92,7 +92,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6484/original/Civic_11th_Gen_Main.jpg?1673329455',
+    image: 'https://images.unsplash.com/photo-1606611013016-969c19ba27bb?w=800',
   },
   {
     id: '8',
@@ -105,7 +105,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc Turbo',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6484/original/Civic_11th_Gen_Main.jpg?1673329455',
+    image: 'https://images.unsplash.com/photo-1619682817481-e994891cd1f5?w=800',
   },
   {
     id: '9',
@@ -118,7 +118,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/5956/original/city_main.jpg?1595580037',
+    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800',
   },
   {
     id: '10',
@@ -131,7 +131,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1498cc',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6661/original/brv_main.jpg?1684733159',
+    image: 'https://images.unsplash.com/photo-1568844293986-8c8a5a8afe0d?w=800',
   },
 
   // Suzuki Cars
@@ -146,7 +146,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'AGS Automatic',
     engine: '660cc',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/5698/original/alto-main_(1).jpg?1569303948',
+    image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800',
   },
   {
     id: '12',
@@ -159,7 +159,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'AGS Automatic',
     engine: '998cc',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/5507/original/Suzuki_Cultus_Main.jpg?1555573109',
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800',
   },
   {
     id: '13',
@@ -172,7 +172,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1197cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6206/original/swift_main.jpg?1619157595',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800',
   },
   {
     id: '14',
@@ -185,7 +185,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'AGS Automatic',
     engine: '998cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/5586/original/wagon_r_new_main.jpg?1562837003',
+    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800',
   },
 
   // KIA Cars
@@ -200,7 +200,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '8-Speed Automatic',
     engine: '1999cc',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6546/original/Sportage_Main.jpg?1676618715',
+    image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800',
   },
   {
     id: '16',
@@ -213,7 +213,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '8-Speed Automatic',
     engine: '1999cc',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6546/original/Sportage_Main.jpg?1676618715',
+    image: 'https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=800',
   },
   {
     id: '17',
@@ -226,7 +226,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '4-Speed Automatic',
     engine: '998cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6088/original/Picanto_Main.jpg?1604900971',
+    image: 'https://images.unsplash.com/photo-1542362567-b07e54358753?w=800',
   },
   {
     id: '18',
@@ -239,7 +239,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '6-Speed Automatic',
     engine: '1368cc Turbo',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6432/original/Stonic_Main_(1).jpg?1671172714',
+    image: 'https://images.unsplash.com/photo-1494976388531-d1058494ceb8?w=800',
   },
 
   // Hyundai Cars
@@ -254,7 +254,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '6-Speed Automatic',
     engine: '1999cc',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6387/original/Tucson_Main.jpg?1668485461',
+    image: 'https://images.unsplash.com/photo-1629897048514-3dd7414fe72a?w=800',
   },
   {
     id: '20',
@@ -267,7 +267,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'CVT Automatic',
     engine: '1999cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6207/original/elentra_main.jpg?1619157893',
+    image: 'https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800',
   },
   {
     id: '21',
@@ -280,7 +280,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '8-Speed Automatic',
     engine: '1999cc',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6133/original/sonata_main.jpg?1609063432',
+    image: 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800',
   },
 
   // Changan Cars
@@ -295,7 +295,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: 'DCT Automatic',
     engine: '1498cc',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6120/original/alsvin_main.jpg?1608177936',
+    image: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?w=800',
   },
   {
     id: '23',
@@ -308,7 +308,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '7-Speed DCT',
     engine: '1498cc Turbo',
-    image: 'https://cache3.pakwheels.com/system/car_generation_pictures/6525/original/x7_main.jpg?1675664626',
+    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800',
   },
 
   // MG Cars
@@ -323,7 +323,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '7-Speed DCT',
     engine: '1490cc Turbo',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6136/original/MG_HS_Main.jpg?1609151266',
+    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800',
   },
   {
     id: '25',
@@ -336,7 +336,7 @@ export const CARS = [
     fuelType: 'Electric',
     transmission: 'Single Speed',
     engine: '177 HP Electric Motor',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6539/original/zs_main.jpg?1676265055',
+    image: 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800',
   },
 
   // Proton Cars
@@ -351,7 +351,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '4-Speed Automatic',
     engine: '1332cc',
-    image: 'https://cache4.pakwheels.com/system/car_generation_pictures/6298/original/saga_main.jpg?1637214458',
+    image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800',
   },
   {
     id: '27',
@@ -364,7 +364,7 @@ export const CARS = [
     fuelType: 'Petrol',
     transmission: '7-Speed DCT',
     engine: '1477cc Turbo',
-    image: 'https://cache1.pakwheels.com/system/car_generation_pictures/6299/original/X70_main.jpg?1637214614',
+    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800',
   },
 
   // Luxury Imports
