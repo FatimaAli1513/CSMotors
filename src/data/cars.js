@@ -111,6 +111,7 @@ export const SHOP_INFO = {
   phone: '+92 300 1234567',
   whatsapp: '+923001234567',
   email: 'info@csmotors.pk',
+  timing: 'Mon - Sat: 10:00 AM - 8:00 PM',
   mapLink: 'https://maps.google.com/?q=13-H+Gulberg+II+Lahore+Pakistan',
 };
 
