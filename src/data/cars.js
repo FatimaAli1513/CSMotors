@@ -15,7 +15,7 @@ export const CARS = [
     transmission: '4-Speed Automatic',
     engine: '1462cc',
     location: 'Lahore',
-    image: require('../../assets/cars/jimmy.png'),
+    image: require('../../assets/cars/jimmy.jpg'),
   },
   {
     id: '2',
