@@ -28,9 +28,11 @@ const HomeScreen = ({ navigation }) => {
           <Text style={styles.shopName}>Capital Smart Motors</Text>
           <Text style={styles.tagline}>Your Trusted Car Dealer</Text>
         </View>
-        <View style={styles.logo}>
-          <Ionicons name="car-sport" size={28} color={COLORS.primary} />
-        </View>
+        <Image 
+          source={require('../../assets/icon.png')} 
+          style={styles.logo}
+          resizeMode="contain"
+        />
       </View>
 
       <ScrollView showsVerticalScrollIndicator={false}>
@@ -108,12 +110,9 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   logo: {
-    width: 50,
-    height: 50,
-    backgroundColor: COLORS.surface,
-    borderRadius: 25,
-    justifyContent: 'center',
-    alignItems: 'center',
+    width: 55,
+    height: 55,
+    borderRadius: 12,
   },
   addressCard: {
     flexDirection: 'row',

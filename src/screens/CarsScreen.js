@@ -51,8 +51,15 @@ const CarsScreen = ({ navigation }) => {
       
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.title}>Our Cars</Text>
-        <Text style={styles.subtitle}>{filteredCars.length} cars available</Text>
+        <View>
+          <Text style={styles.title}>Our Cars</Text>
+          <Text style={styles.subtitle}>{filteredCars.length} cars available</Text>
+        </View>
+        <Image 
+          source={require('../../assets/icon.png')} 
+          style={styles.logo}
+          resizeMode="contain"
+        />
       </View>
 
       {/* Search */}
@@ -96,6 +103,9 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.background,
   },
   header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: 20,
     paddingBottom: 10,
   },
@@ -108,6 +118,11 @@ const styles = StyleSheet.create({
     color: COLORS.textSecondary,
     fontSize: 14,
     marginTop: 4,
+  },
+  logo: {
+    width: 50,
+    height: 50,
+    borderRadius: 10,
   },
   searchContainer: {
     flexDirection: 'row',
