@@ -59,13 +59,13 @@ const HomeScreen = ({ navigation }) => {
           </TouchableOpacity>
         </View>
         
-        {CARS.slice(0, 4).map((car) => (
+        {CARS.slice(0, 3).map((car) => (
           <TouchableOpacity
             key={car.id}
             style={styles.carCard}
             onPress={() => navigation.navigate('CarDetails', { car })}
           >
-            <Image source={{ uri: car.image }} style={styles.carImage} />
+            <Image source={car.image} style={styles.carImage} resizeMode="contain" />
             <View style={styles.carInfo}>
               <Text style={styles.carBrand}>{car.brand}</Text>
               <Text style={styles.carName}>{car.name}</Text>
@@ -171,7 +171,8 @@ const styles = StyleSheet.create({
   },
   carImage: {
     width: 120,
-    height: 90,
+    height: '100%',
+    resizeMode: 'contain',
   },
   carInfo: {
     flex: 1,

@@ -27,7 +27,7 @@ const CarsScreen = ({ navigation }) => {
       style={styles.carCard}
       onPress={() => navigation.navigate('CarDetails', { car: item })}
     >
-      <Image source={{ uri: item.image }} style={styles.carImage} />
+      <Image source={item.image} style={styles.carImage} resizeMode="cover" />
       <View style={styles.carOverlay}>
         <Text style={styles.carPrice}>{formatPrice(item.price)}</Text>
       </View>

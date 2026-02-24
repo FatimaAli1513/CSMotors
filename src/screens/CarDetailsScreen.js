@@ -32,7 +32,7 @@ const CarDetailsScreen = ({ navigation, route }) => {
       <StatusBar barStyle="light-content" />
       
       {/* Image */}
-      <Image source={{ uri: car.image }} style={styles.image} />
+      <Image source={car.image} style={styles.image} resizeMode="contain" />
       
       {/* Back Button */}
       <TouchableOpacity style={styles.backBtn} onPress={() => navigation.goBack()}>
