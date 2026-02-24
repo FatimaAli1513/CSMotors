@@ -18,11 +18,6 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
-# Keystore & Credentials (IMPORTANT - Keep these private!)
-*.keystore
-KEYSTORE_CREDENTIALS.txt
-credentials.json
-
 # Metro
 .metro-health-check*
 
